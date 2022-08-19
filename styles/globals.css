@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* todo use tailwind */
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
