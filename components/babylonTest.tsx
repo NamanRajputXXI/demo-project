@@ -1,12 +1,12 @@
 import React, { useRef, useEffect } from "react";
 import {
   Engine,
-  Scene,
-  MeshBuilder,
+  Scene,MeshBuilder,
   ArcRotateCamera,
   HemisphericLight,
   Vector3,
-} from "../node_modules/@babylonjs/core";
+  
+} from '@babylonjs/core';
 
 const myStyle = {
   width: "100%",
@@ -29,7 +29,7 @@ const ReactCanvas = (props : any) => {
         new Vector3(0, 0, 0)
       );
       camera.attachControl(canvas, true);
-      const light = new HemisphericLight("light", new Vector3(1, 1, 0));
+      const light = new HemisphericLight("light", new Vector3(1, 1, 0), scene);
       return scene;
     };
     const scene = createScene();

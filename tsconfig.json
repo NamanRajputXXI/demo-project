@@ -14,10 +14,15 @@
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve"
   },
+  "types":[
+    "babylonjs",
+    "anotherAwesomeDependency"
+  ],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
