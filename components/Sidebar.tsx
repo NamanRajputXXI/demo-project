@@ -3,8 +3,7 @@
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "../node_modules/react-icons/ai";
 import { GiTie } from "../node_modules/react-icons/gi";
 import { GoLocation } from "../node_modules/react-icons/go";
-// import { useTheme } from "next-themes";
-// import Image from "next/image";
+
 
 const Sidebar = () => {
   

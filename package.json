@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babylonjs/core": "^5.20.0",
     "babylonjs": "^5.20.0",
     "next": "12.2.5",
     "react": "18.2.0",
