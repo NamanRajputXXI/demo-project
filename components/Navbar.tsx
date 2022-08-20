@@ -31,6 +31,7 @@ const Navbar = () => {
       if (pathname === '/') setActive('About')
       else if (pathname === '/projects') setActive('Projects')
       else if (pathname === '/resume') setActive('Resume')
+      else if (pathname === '/skills') setActive('Skills')
    }, [])
 
    return (
@@ -58,6 +59,13 @@ const Navbar = () => {
                name='Projects'
                route='/projects'
             />
+            <NavItem
+               active={active}
+               setActive={setActive}
+               name='Skills'
+               route='/skills'
+            />
+            
          </div>
       </div>
    )
