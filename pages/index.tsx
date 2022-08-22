@@ -2,8 +2,6 @@
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data'
 const index = () => {
-  console.log(services);
-  console.log('hello');
   
   
   return (

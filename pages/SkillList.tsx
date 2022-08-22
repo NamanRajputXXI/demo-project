@@ -14,8 +14,7 @@ const SkillsList = () => {
     <ul>
         {skills.map((skill: any, i  : any)=>{
             return(
-                <React.Fragment key={i}>
-                    <li className="skill-item">
+                    <li className="skill-item" key={i}>
                         <span>
                             <input
                             checked={skill.completed}
@@ -38,7 +37,6 @@ const SkillsList = () => {
                         >Delete</button>
                     </li>
 
-                </React.Fragment>
             )
         })}
     </ul>
