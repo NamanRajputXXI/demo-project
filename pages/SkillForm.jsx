@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import useSkillStore from './store'
+import useSkillStore from '../store'
 
 
 

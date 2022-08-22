@@ -1,5 +1,5 @@
 import React from 'react'
-import useSkillStore from './store'
+import useSkillStore from '../store'
 
 const SkillsList = () => {
     const { skills, removeSkill,  toggleSkillStatus} = useSkillStore(

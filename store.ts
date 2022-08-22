@@ -1,5 +1,5 @@
-import create from '../node_modules/zustand'
-import {devtools, persist} from '../node_modules/zustand/middleware'
+import create from './node_modules/zustand'
+import {devtools, persist} from './node_modules/zustand/middleware'
 
 const skillStore = ((set : any ) =>({
    skills:[],
